@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Assistant', sans-serif;
+}
+.content{
+    position: absolute;
+    text-align: center;
+    margin-bottom: 7% ;
+    
+
+}
+h1{
+    width: 100%;
+    font-size: 56px;
+    color: #D3E10E;
+    margin-bottom: 3%;
+   
+}
+p{
+    font-family: 'Assistant', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 70;
+    
+}
+.top .desktop{
+    width: 100%;
+    height: 80%;
+    
+}
+.top #mobile{
+    display: none;
+}
+
+.form-section{
+    width:100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: end;
+    gap: 2rem;
+    margin-top: 2%;
+    
+    
+}
+.form-section label{
+    display: block;
+    direction: rtl;
+    font-size: 12px;
+    margin-top: 3%;
+    font-weight: 900;
+}
+
+input{
+    width: 18vw;
+    height: 4vh;
+    border: none;
+    border-bottom: 3px solid #D3E10E;
+    background: #F6F6F6 0% 0% no-repeat padding-box;
+    direction: rtl;
+
+}
+
+.btn input{
+    background-color: #D3E10E;
+    border: none;
+    width: 8vw;
+    height: 4vh;
+    cursor: pointer;
+    font-weight: 900;
+    margin-right: 30px;
+    
+    
+}
+@media screen and (max-width: 800px) {
+
+    .top .desktop{
+        display: none;
+    }
+    .top #mobile{
+        display: flex;
+    }
+    h1, p{
+        display: none;
+    }
+    .form-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15%;
+        
+    }
+    input {
+        background: #E5EEFF 0% 0% no-repeat padding-box;
+        width: 286px;
+        height: 34px;
+
+    }
+    .form-section label{
+        margin-top: 0
+    }
+    .btn input{
+        width: 286px;
+        height: 34px;
+        margin: 0
+    }
+
+
+    
+};
+
+

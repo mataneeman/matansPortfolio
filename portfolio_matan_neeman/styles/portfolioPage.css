@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@1&family=Heebo:wght@400;500&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Salsa&display=swap');
+*{
+    font-family: 'Salsa', cursive;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header, #container-footer{
+        
+    position:sticky!important;   
+    top:0;
+    left: 0;
+    background-color:aliceblue;
+    color: #0c0231;
+    box-shadow: 1px 3px 20px white;
+    
+}
+#container-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    
+    
+}
+nav li{
+    list-style-type: none;
+    padding: 10px 15px;
+} 
+
+nav a{
+    color:#0c0231;
+    text-decoration: none;
+    font-family: 'Salsa', cursive;
+}
+
+.logo{
+    color:#0c0231;
+    font-size: 18px;
+}
+.logo .profile{
+    max-width: 40px;
+    border-radius:50%;
+    margin: 10px;
+}
+.logo .name{
+    display: flex;
+    flex: 3;
+    font-weight: 700;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+
+}
+.name:hover{
+    color: darkturquoise;
+}
+input[type=checkbox]{
+    display: none;
+}
+
+#hamburger{
+    display: none;
+    font-size: 24px;
+}
+
+
+.nav-links:hover a{
+    color:darkturquoise;
+
+}
+#home1{
+    font-weight: 800;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: #0c0231;
+    padding: 10%;
+    position: bottom;
+    background-size: cover;
+    text-align: center;
+}
+.main h1{
+    font-size: 100px;
+    text-shadow: 1px 3px 50px #fff;
+    color: #0c0231;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    
+}
+.main p{
+    font-size: 16px;
+    color: #fff;
+    margin-top: 3%;
+    
+}
+#sentence{
+    font: 20px underline;
+   
+}
+.main h2{
+    color: #fff;
+    margin-top: 10%;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+ 
+}
+
+.technologies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 2%;
+    background-color: #0c0231;
+}
+
+.technologies img{
+    width: 70px;
+    height: 70px;
+    background-color: aliceblue;
+    border-radius: 20%;
+    padding: 1%;
+    box-shadow: 1px 3px 20px #fff;
+    
+    
+}
+
+#about-me{
+    display: flex;
+    padding-left:10% ;
+    background:#0c0231;
+    
+   
+}
+#about-me img{
+    margin: 7% 5% 5% 5%;
+    width: 20%;
+    height: 10%;
+    border-radius: 5%;
+    box-shadow: 1px 3px 20px gray;
+    object-fit: cover;
+}
+.a-bit {
+    margin-top: 8%;
+    align-items: center;
+    
+}
+.a-bit h2{ 
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff;
+    
+}
+.a-bit p{
+    
+     font-size: 16px;
+     color: #fff;
+     margin-bottom: 15%;
+    
+ }
+
+.a-bit .dw{
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #0c0231;
+    size: 20px;
+    padding: 3%;
+   
+}
+
+
+
+.container{
+   padding: 12%;
+   justify-content: center;
+   background-color: #0c0231;
+   padding-top: 8%;
+    
+}
+.container h2{
+    text-align: center;
+    font-size: 42px;
+    color: #fff; 
+    font-family: 'Rubik Doodle Shadow', system-ui;
+}
+#para{
+    font-size: 18px;
+    color: #fff;
+}
+.container p{
+    text-align: center;
+    margin-bottom: 8%;
+
+}
+.projects{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%; 
+}
+
+.projects a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid #0c0231;
+    text-decoration: none;
+    background-color: #0c0231;
+    color: #fff;
+    padding: 5%;
+    border-radius: 5px;  
+}
+
+.main-card{
+    padding: 10%;
+    text-align: center;
+    
+}
+.main-card h4{
+    font-size: 18px;
+}
+.btn-card i{
+    font-size: 18px;
+    margin: 3%;
+   
+}
+
+.card{
+    
+    width:280px ;
+    height: 350px;
+   margin: 3em;
+   background-color: #fff;
+    box-shadow: 2px 5px 30px gray;
+    border-radius: 2px;
+  
+}
+.card:hover{
+    background-color:whitesmoke;
+    transform: scale3d(1.1 , 1.1, 1.1 );
+    transition: 0.8s;
+}
+
+.card img{
+    width: 100%;
+    height: 45%;
+    border-radius: 2px;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    background-color: #0c0231;
+    padding: 10%;
+}
+.img-message img{
+    width: 400px;  
+    height: 300px; 
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-left: 10%;
+   
+}
+.form-section{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+   
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    
+}
+.title{
+    margin-bottom: 5%; 
+    
+}
+.title h1{
+    color: #fff;
+    font-size: 48px;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+}
+.title p{
+    font-size: 20px;
+    color: #fff;
+}
+.form label{
+    font-weight: 700;
+}
+.form input{
+    width: 70%;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Sanserif', heebo;
+    padding: 1%;
+}
+.form input[type="submit"]{
+    width: 70%;
+    height: 50px;
+    background-color: #fff;
+    color: #0c0231;
+    font-size: 18px;
+    font-weight: 900;
+   
+
+    
+}
+.form #content{
+    height: 100px;
+}
+
+
+
+@media screen and (max-width:1200px){
+    
+    body{
+        width: 100%;
+        
+    }
+    .logo .name{
+        font-size: 14px;
+    }
+
+    nav ul{
+        flex-wrap: wrap;
+    }
+    .nav-links{
+        display: none;
+        
+        text-align: center;
+        width: 100%;
+
+    }
+    input[type=checkbox]:checked~.nav-links{
+        display:block;
+    }
+    #hamburger{
+        display: block;
+        margin: 1em;
+        margin-bottom: 1em;
+    }
+    .main h1{
+        font-size: 50px;
+    }
+    .technologies img{
+        width: 40px;
+        height: 40px;
+        margin: 5%;
+
+    }
+    #about-me{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #about-me img{
+        width: 200px;
+        height: 300px;
+    }
+    .a-bit{
+        text-align: left;
+    }
+    .a-bit h2{
+        text-align: center;
+    }
+    .dw{
+        display: flex;
+        justify-content: center;
+    }
+ 
+    #contact{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container{
+        padding-top: 20%;
+    }
+    .img-message img{
+        width: 100px;
+        height: 100px;
+    }
+   
+    
+}
+
+
+
+
